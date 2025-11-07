@@ -18,4 +18,18 @@
 1. $T_2$, the (‘transverse’) relaxation time of states such as $(|0\rangle + |1\rangle)/\sqrt{2}$
 2. $T_1$ , the (‘longitudinal’) relaxation time of the higher energy $|1\rangle$ state
 
-**Square wells and qubits**
+## 7.3 | Harmonic oscillator quantum computer
+- Qubit representation: Energy levels $|0\rangle$, $|1\rangle$, . . ., $|2n\rangle$ of a single quantum oscillator give n qubits.
+- Unitary evolution: Arbitrary transforms $U$ are realized by matching their eigenvalue spectrums to that given by the Hamiltonian H = a† a.
+- Initial state preparation: Not considered.
+- Readout: Not considered.
+- Drawbacks: Not a digital representation! Also, matching eigenvalues to realize transformations is not feasible for arbitrary U , which generally have unknown
+eigenvalues.
+
+## 7.4 | Optical photon quantum computer
+- Qubit representation: Location of single photon between two modes, $|01\rangle$ and $|10\rangle$, or polarization.
+- Unitary evolution: Arbitrary transforms are constructed from phase shifters (Rz rotations), beamsplitters (Ry rotations), and nonlinear Kerr media, which allow
+two single photons to cross phase modulate, performing $exp[iχL|11\rangle\langle 11|]$ .
+- Initial state preparation: Create single photon states (e.g. by attenuating laser light).
+- Readout: Detect single photons (e.g. using a photomultipler tube).
+- Drawbacks: Nonlinear Kerr media with large ratio of cross phase modulation strength to absorption loss are difﬁcult to realize.
